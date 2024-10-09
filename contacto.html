@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto - Instituto de Música">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cursoDeCanto.html">Curso de Canto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono"><br>
+
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="consulta"></textarea><br>
+
+                <label>¿Qué curso te interesa?</label><br>
+                <div>
+                    <input type="radio" name="curso" value="canto"> Canto<br>
+                    <input type="radio" name="curso" value="guitarra"> Guitarra<br>
+                    <input type="radio" name="curso" value="piano"> Piano<br>
+                </div>
+
+                 <label>Horarios disponibles:</label><br>
+                 <div>
+                    <input type="checkbox" name="horario" value="mañana"> Mañana<br>
+                    <input type="checkbox" name="horario" value="tarde"> Tarde<br>
+                    <input type="checkbox" name="horario" value="noche"> Noche<br>
+                 </div>   
+
+                <label for="edad">Edad:</label>
+                <input list="edades" id="edad" name="edad">
+                <datalist id="edades">
+                    <option value="10-20">
+                    <option value="21-30">
+                    <option value="31-40">
+                </datalist><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Información de Contacto</h3>
+            <p>Dirección: Calle Música 123, Ciudad Musical</p>
+            <p>Teléfono: 555-555-555</p>
+            <p>Horario: Lunes a Viernes, 9:00 - 18:00</p>
+        </section>
+
+        <section id="Redes">
+            <h3>Síguenos en Redes Sociales</h3>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por: [Pablo Martin Gomez]</p>
+    </footer>
+</body>
+</html>
